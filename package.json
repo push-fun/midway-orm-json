@@ -2,9 +2,9 @@
     "name": "@push.fun/midway-orm-json",
     "version": "0.0.1",
     "main": "index.js",
-    "typings": "src/index.ts",
+    "typings": "dist/index.d.ts",
     "dependencies": {
-        "@push.fun/midway-tool": "^0.0.1"
+        "@push.fun/midway-tool": "git+https://github.com/push-fun/midway-tool"
     },
     "devDependencies": {
         "@midwayjs/cli": "^1.0.0",
